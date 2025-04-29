@@ -12,7 +12,7 @@ import { useToast } from "@/components/ui/use-toast";
 
 // Mock student data
 const students = [
-  { id: "S001", name: "Alice Johnson", roll: "CS-2021-01", present: true },
+  { id: "S001", name: "Rashi Daga", roll: "225/UCS/052", present: true },
   { id: "S002", name: "Bob Smith", roll: "CS-2021-02", present: false },
   { id: "S003", name: "Charlie Davis", roll: "CS-2021-03", present: true },
   { id: "S004", name: "David Wilson", roll: "CS-2021-04", present: true },
