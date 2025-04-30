@@ -97,8 +97,8 @@ const Sidebar = ({ userRole }: SidebarProps) => {
       <div className="absolute bottom-8 left-4 right-4">
         <div className="p-4 rounded-lg bg-sidebar-accent text-white text-sm">
           <p className="font-semibold mb-2">Need Help?</p>
-          <p className="opacity-80 text-xs">Contact IT support at:</p>
-          <p className="text-blue-300">support@university.edu</p>
+          <p className="opacity-80 text-xs">Contact it support at:</p>
+          <p className="text-blue-300">gbu@ac.ingmail.com</p>
         </div>
       </div>
     </div>
