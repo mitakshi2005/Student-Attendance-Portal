@@ -17,10 +17,10 @@ const attendanceData = [
 ];
 
 const courseAttendanceData = [
-  { name: "Physics", value: 92 },
-  { name: "Chemistry", value: 85 },
-  { name: "Mathematics", value: 96 },
-  { name: "Computer Science", value: 90 },
+  { name: "Software Testing" , value:80},
+  { name: "Digital Image Processing" , value:85},
+  { name: "Web Dev using PHP" , value:96},
+  { name: "Management Information System" , value :90},
 ];
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
@@ -235,7 +235,7 @@ const DashboardPage = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  {["Mathematics", "Physics", "Chemistry", "Computer Science"].map((subject) => (
+                  {["Digital Image Processing","Software Testing","Web Dev using PHP","CyberSecurity"].map((subject)=>(
                     <div key={subject} className="flex justify-between items-center p-4 bg-white rounded-lg border border-gray-100 shadow-sm">
                       <div>
                         <h4 className="font-medium">{subject}</h4>
@@ -258,11 +258,11 @@ const DashboardPage = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  {["CS101: Introduction to Programming", "CS203: Data Structures", "CS301: Database Systems"].map((subject) => (
+                  {["CS302: Web Dev using PHP","CS304 : Software Testing","CS308: CyberSecurity"].map((subject)=>(
                     <div key={subject} className="flex justify-between items-center p-4 bg-white rounded-lg border border-gray-100 shadow-sm">
                       <div>
                         <h4 className="font-medium">{subject}</h4>
-                        <p className="text-sm text-gray-500">Room 105 • 2:00 PM</p>
+                        <p className="text-sm text-gray-500">IL-202 2:00PM</p>
                       </div>
                       <div className="flex gap-2">
                         <Link to="/attendance" className="text-sm text-blue-600 hover:underline">Take Attendance</Link>
@@ -286,17 +286,17 @@ const DashboardPage = () => {
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="dash-card">
-                    <h3 className="text-lg font-semibold mb-1">Computer Science</h3>
+                    <h3 className="text-lg font-semibold mb-1">Software Testing</h3>
                     <div className="text-3xl font-bold text-blue-600">93%</div>
                     <div className="text-sm text-gray-500">32 Students Present</div>
                   </div>
                   <div className="dash-card">
-                    <h3 className="text-lg font-semibold mb-1">Physics</h3>
+                    <h3 className="text-lg font-semibold mb-1">CyberSecurity</h3>
                     <div className="text-3xl font-bold text-blue-600">87%</div>
                     <div className="text-sm text-gray-500">26 Students Present</div>
                   </div>
                   <div className="dash-card">
-                    <h3 className="text-lg font-semibold mb-1">Mathematics</h3>
+                    <h3 className="text-lg font-semibold mb-1">Web Dev using PHP</h3>
                     <div className="text-3xl font-bold text-blue-600">91%</div>
                     <div className="text-sm text-gray-500">29 Students Present</div>
                   </div>
