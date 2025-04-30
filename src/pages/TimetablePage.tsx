@@ -13,26 +13,26 @@ const timeSlots = ["9:00 AM - 10:30 AM", "10:45 AM - 12:15 PM", "1:00 PM - 2:30 
 // Mock timetable data
 const timetableData = {
   Monday: {
-    "9:00 AM - 10:30 AM": { courseCode: "CS101", courseName: "Introduction to Programming", room: "Lab 101", instructor: "Dr. Emily Johnson" },
-    "10:45 AM - 12:15 PM": { courseCode: "MATH201", courseName: "Calculus II", room: "Room 305", instructor: "Dr. Robert Davis" },
-    "2:45 PM - 4:15 PM": { courseCode: "CS301", courseName: "Database Systems", room: "Lab 205", instructor: "Prof. Sarah Williams" },
+    "9:00 AM - 10:30 AM": { courseCode: "CS101", courseName: "ADA", room: "IL-202", instructor: "Archana Singh"},
+    "10:45 AM - 12:15 PM": { courseCode: "MATH201", courseName: "Cybersecurity" , room : "IL-202" , instructor :"Sonu Kumar"},
+    "2:45 PM - 4:15 PM": { courseCode: "CS301", courseName: "Software Testing" , room : "IL-202" , instructor : "Bhavana Yadav"},
   },
   Tuesday: {
-    "9:00 AM - 10:30 AM": { courseCode: "PHYS101", courseName: "Introduction to Physics", room: "Lab 305", instructor: "Dr. Linda Martinez" },
-    "1:00 PM - 2:30 PM": { courseCode: "CS401", courseName: "Web Development", room: "Lab 103", instructor: "Dr. James Wilson" },
+    "9:00 AM - 10:30 AM": { courseCode: "PHYS101", courseName: "DIgital Image Processing",room: "IL-202", instructor: "Prof.K.K.Biswas"},
+    "1:00 PM - 2:30 PM": { courseCode: "CS401", courseName: "Web Development", room: "IL-202", instructor: "Rakesh Kumar" },
   },
   Wednesday: {
-    "9:00 AM - 10:30 AM": { courseCode: "CS101", courseName: "Introduction to Programming", room: "Lab 101", instructor: "Dr. Emily Johnson" },
-    "10:45 AM - 12:15 PM": { courseCode: "MATH201", courseName: "Calculus II", room: "Room 305", instructor: "Dr. Robert Davis" },
-    "1:00 PM - 2:30 PM": { courseCode: "CS201", courseName: "Data Structures", room: "Room 203", instructor: "Dr. Michael Smith" },
+    "9:00 AM - 10:30 AM": { courseCode: "CS101", courseName: "ADA", room: "IL-202" , instructor : "Archana Singh"},
+    "10:45 AM - 12:15 PM": { courseCode: "MATH201", courseName: "Cybersecurity", room :"IL-202", instructor: "Sonu Kumar" },
+    "1:00 PM - 2:30 PM": { courseCode: "CS201", courseName: "Software Testing",room: "IL-202", instructor: "Bhavana Yadav" },
   },
   Thursday: {
-    "9:00 AM - 10:30 AM": { courseCode: "PHYS101", courseName: "Introduction to Physics", room: "Lab 305", instructor: "Dr. Linda Martinez" },
-    "1:00 PM - 2:30 PM": { courseCode: "CS401", courseName: "Web Development", room: "Lab 103", instructor: "Dr. James Wilson" },
+    "9:00 AM - 10:30 AM": { courseCode: "PHYS101", courseName: "Digitial IMage Processing" , room : "IL-202" , instructor :"Prof.K.K.Biswas"},
+    "1:00 PM - 2:30 PM": { courseCode: "CS401", courseName: "Web Development", room: "IL-202", instructor: "Rakesh Kumar" },
   },
   Friday: {
-    "10:45 AM - 12:15 PM": { courseCode: "CS201", courseName: "Data Structures", room: "Room 203", instructor: "Dr. Michael Smith" },
-    "2:45 PM - 4:15 PM": { courseCode: "CS301", courseName: "Database Systems", room: "Lab 205", instructor: "Prof. Sarah Williams" },
+    "10:45 AM - 12:15 PM": { courseCode: "CS201", courseName: "Software Testing",room: "Il-202", instructor: "Bhavana Yadav" },
+    "2:45 PM - 4:15 PM": { courseCode: "CS301", courseName: "ADA", room: "Lab 205", instructor: "ARchana Singh" },
   },
 };
 
@@ -67,9 +67,9 @@ const TimetablePage = () => {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="computer-science">Computer Science</SelectItem>
-                  <SelectItem value="physics">Physics</SelectItem>
-                  <SelectItem value="mathematics">Mathematics</SelectItem>
-                  <SelectItem value="chemistry">Chemistry</SelectItem>
+                  <SelectItem value="physics">IT</SelectItem>
+                  <SelectItem value="mathematics">ECE</SelectItem>
+                  <SelectItem value="chemistry">CIvil</SelectItem>
                 </SelectContent>
               </Select>
             </div>

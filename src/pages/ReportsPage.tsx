@@ -32,30 +32,30 @@ const monthlyData = [
 ];
 
 const departmentData = [
-  { name: "Computer Science", value: 92 },
-  { name: "Physics", value: 86 },
-  { name: "Chemistry", value: 88 },
-  { name: "Mathematics", value: 90 },
-  { name: "English", value: 85 },
+  { name: "ADA",value:92},
+  { name: "Software Testing" , value:86},
+  { name: "CyberSecurity",value:70},
+  { name: "Web Dev using PHP" , value:90},
+  { name: "Digital Image Processing" , value:85},
 ];
 
 const studentData = [
-  { id: "S001", name: "Alice Johnson", roll: "CS-2021-01", attendance: 98 },
-  { id: "S002", name: "Bob Smith", roll: "CS-2021-02", attendance: 76 },
-  { id: "S003", name: "Charlie Davis", roll: "CS-2021-03", attendance: 88 },
-  { id: "S004", name: "David Wilson", roll: "CS-2021-04", attendance: 92 },
-  { id: "S005", name: "Eva Martinez", roll: "CS-2021-05", attendance: 95 },
-  { id: "S006", name: "Frank Thomas", roll: "CS-2021-06", attendance: 72 },
-  { id: "S007", name: "Grace Lee", roll: "CS-2021-07", attendance: 85 },
-  { id: "S008", name: "Henry Brown", roll: "CS-2021-08", attendance: 93 },
-  { id: "S009", name: "Ivy Anderson", roll: "CS-2021-09", attendance: 90 },
-  { id: "S010", name: "Jack Miller", roll: "CS-2021-10", attendance: 78 },
+  { id: "S001", name: "Rashi Daga", roll: "225/UCS/052" , attendance:98},
+  { id: "S002", name: "Vaibhav Singh" , roll : "225/UCS/067" , attendance :76},
+  { id: "S003", name: "Mitakshi Sharma" , roll : "235/LCS/005" , attendance :90},
+  { id: "S004", name: "Dev Kinha", roll : "225/UCS/018" , attendance :75},
+  { id: "S005", name: "Maahi Sharma" , roll : "225/UCS/033" , attendance :95},
+  { id: "S006", name: "Raj Puri", roll: "225/UCS/051" , attendance : 72},
+  { id: "S007", name: "Rohan Yadav" , roll : "225/UCS/53" , attendance : 80},
+  { id: "S008", name: "Astha Tyagi" , roll : "225/UCS/002", attendance :95},
+  { id: "S009", name: "Adarsh Tiwari" , roll :"225/UCS/004" , attendance :82},
+  { id: "S010", name: "Arnav Bhatt" , roll : "225/UCS/011",attendance:78},
 ];
 
 const courseData = [
-  { id: "C001", name: "Introduction to Programming", code: "CS101", attendance: 88 },
-  { id: "C002", name: "Data Structures", code: "CS201", attendance: 92 },
-  { id: "C003", name: "Database Systems", code: "CS301", attendance: 85 },
+  { id: "C001", name: "DIgital Image Processing", code: "CS101", attendance: 88 },
+  { id: "C002", name: "SOftware Testing" , code : "CS201", attendance :92},
+  { id: "C003", name: "ADA", code: "CS301", attendance: 85 },
   { id: "C004", name: "Web Development", code: "CS401", attendance: 90 },
 ];
 
@@ -121,9 +121,9 @@ const ReportsPage = () => {
                 <SelectContent>
                   <SelectItem value="all">All Departments</SelectItem>
                   <SelectItem value="cs">Computer Science</SelectItem>
-                  <SelectItem value="physics">Physics</SelectItem>
-                  <SelectItem value="chemistry">Chemistry</SelectItem>
-                  <SelectItem value="math">Mathematics</SelectItem>
+                  <SelectItem value="physics">ECE</SelectItem>
+                  <SelectItem value="chemistry">IT</SelectItem>
+                  <SelectItem value="math">Civil</SelectItem>
                 </SelectContent>
               </Select>
             </div>
