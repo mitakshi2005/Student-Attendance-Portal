@@ -13,23 +13,23 @@ import { useToast } from "@/components/ui/use-toast";
 // Mock student data
 const students = [
   { id: "S001", name: "Rashi Daga", roll: "225/UCS/052", present: true },
-  { id: "S002", name: "Bob Smith", roll: "CS-2021-02", present: false },
-  { id: "S003", name: "Charlie Davis", roll: "CS-2021-03", present: true },
-  { id: "S004", name: "David Wilson", roll: "CS-2021-04", present: true },
-  { id: "S005", name: "Eva Martinez", roll: "CS-2021-05", present: true },
-  { id: "S006", name: "Frank Thomas", roll: "CS-2021-06", present: false },
-  { id: "S007", name: "Grace Lee", roll: "CS-2021-07", present: true },
-  { id: "S008", name: "Henry Brown", roll: "CS-2021-08", present: true },
-  { id: "S009", name: "Ivy Anderson", roll: "CS-2021-09", present: true },
-  { id: "S010", name: "Jack Miller", roll: "CS-2021-10", present: false },
+  { id: "S002", name: "Anamika Bharti", roll :"225/UCS/006",present : false},
+  { id: "S003", name: "Mitakshi Sharma",roll :"235/LCS/005",present: true},
+  { id: "S004", name: "Vaibhav Singh",roll:"225/UCS/067",present :true},
+  { id: "S005", name: "Dev Kinha",roll: "225/UCS/018" , present:true},
+  { id: "S006", name: "Girisha",roll :"225/UCS/024", present :false},
+  { id: "S007", name: "Gungun",roll:"225/UCS/025" , present :true},
+  { id: "S008", name: "Astha Anand" , roll :"225/UCS/002",present:false},
+  { id: "S009", name: "Adarsh Tiwari" , roll:"225/UCS/004",present : true},
+  { id: "S010", name: "Astha Tyagi" , roll :"225/UCS/016",present:false},
 ];
 
 // Mock course data
 const courses = [
-  { id: "C001", name: "Introduction to Programming", code: "CS101" },
-  { id: "C002", name: "Data Structures", code: "CS201" },
-  { id: "C003", name: "Database Systems", code: "CS301" },
-  { id: "C004", name: "Web Development", code: "CS401" },
+  { id: "C001", name: "Software Testing",code: "CS101"},
+  { id: "C002", name: "Web Dev using PHP",code : "CS201"},
+  { id: "C003", name: "CyberSecurity" , code : "CS301"},
+  { id: "C004", name: "Digital Image Processing" , code : "CS401"},
 ];
 
 const AttendancePage = () => {
@@ -113,7 +113,7 @@ const AttendancePage = () => {
                   <div className="attendance-card attendance-present">
                     <div className="flex justify-between items-start">
                       <div>
-                        <h3 className="font-medium">Mathematics</h3>
+                        <h3 className="font-medium">Software Testing </h3>
                         <p className="text-sm text-gray-500">09:00 AM - 10:30 AM</p>
                       </div>
                       <div className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full flex items-center">
@@ -126,7 +126,7 @@ const AttendancePage = () => {
                   <div className="attendance-card attendance-absent">
                     <div className="flex justify-between items-start">
                       <div>
-                        <h3 className="font-medium">Physics</h3>
+                        <h3 className="font-medium">Web Dev using PHP </h3>
                         <p className="text-sm text-gray-500">11:00 AM - 12:30 PM</p>
                       </div>
                       <div className="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full flex items-center">
@@ -139,7 +139,7 @@ const AttendancePage = () => {
                   <div className="attendance-card attendance-late">
                     <div className="flex justify-between items-start">
                       <div>
-                        <h3 className="font-medium">Computer Science</h3>
+                        <h3 className="font-medium">Digital Image Processing </h3>
                         <p className="text-sm text-gray-500">02:00 PM - 03:30 PM</p>
                       </div>
                       <div className="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded-full flex items-center">
@@ -428,12 +428,12 @@ const AttendancePage = () => {
                     </thead>
                     <tbody>
                       {[
-                        { date: "2025-04-28", course: "Mathematics", status: "present" },
-                        { date: "2025-04-28", course: "Physics", status: "absent" },
-                        { date: "2025-04-27", course: "Chemistry", status: "present" },
-                        { date: "2025-04-27", course: "Computer Science", status: "present" },
-                        { date: "2025-04-26", course: "Mathematics", status: "present" },
-                      ].map((record, index) => (
+                        { date: "2025-04-28", course: "Software Testing" , status:"present"},
+                        { date: "2025-04-28", course: "Web Dev using PHP" , status :"absent"},
+                        { date: "2025-04-27", course: "Digital Image Processing" , status :"present"},
+                        { date: "2025-04-27", course: "CyberSecurity" , status :"absent"},
+                        { date: "2025-04-26", course: "Analysis and Design of Algorithms", status:"present"},
+                         ].map((record, index) => (
                         <tr key={index} className="bg-white border-b hover:bg-gray-50">
                           <td className="py-3 px-6">{record.date}</td>
                           <td className="py-3 px-6">{record.course}</td>

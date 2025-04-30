@@ -7,16 +7,16 @@ import { useToast } from "@/components/ui/use-toast";
 const MOCK_USERS = [
   { 
     id: "s1", 
-    name: "John Smith", 
-    email: "john@student.edu", 
+    name: "Rashi Daga",
+    email: "rashidaga91@gmail.com",
     password: "student123", 
     role: "student" as UserRole,
     profileImage: "/placeholder.svg" 
   },
   { 
     id: "t1", 
-    name: "Dr. Emily Johnson", 
-    email: "emily@teacher.edu", 
+    name: "Rakesh Kumar",
+    email: "rakesh.k@gbu.ac.in",
     password: "teacher123", 
     role: "teacher" as UserRole 
   },
@@ -29,21 +29,21 @@ const MOCK_USERS = [
   },
   { 
     id: "p1", 
-    name: "Robert Smith", 
-    email: "parent@example.com", 
+    name: "Archit",
+    email: "archit@gmail.com",
     password: "parent123", 
     role: "parent" as UserRole 
   },
   { 
     id: "h1", 
-    name: "Dr. Maria Rodriguez", 
+    name: "Arun Solanki",
     email: "hod@university.edu", 
     password: "hod123", 
     role: "hod" as UserRole 
   },
   { 
     id: "d1", 
-    name: "Dr. Thomas Wilson", 
+    name: "Prof. Sanjay Kumar Sharma",
     email: "dean@university.edu", 
     password: "dean123", 
     role: "dean" as UserRole 
