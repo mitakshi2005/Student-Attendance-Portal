@@ -18,7 +18,7 @@ const mockNotifications: NotificationItem[] = [
   {
     id: "n1",
     title: "Low Attendance Alert",
-    message: "Your attendance in Physics (CS201) is below 75%. Please improve to avoid academic penalties.",
+    message: "Your attendance in Software testing (CS2021) below 75% please make sure to maintain it to remove academic penalities",
     date: "2025-04-28T10:30:00",
     read: false,
     type: "alert"
@@ -26,7 +26,7 @@ const mockNotifications: NotificationItem[] = [
   {
     id: "n2",
     title: "Class Rescheduled",
-    message: "Your Database Systems class on April 30th has been rescheduled to May 2nd due to faculty meeting.",
+    message: "Your Web Dev class on April 30th has been rescheduled to 2nd May due to faculty meeting",
     date: "2025-04-27T14:15:00",
     read: false,
     type: "info"
@@ -34,7 +34,7 @@ const mockNotifications: NotificationItem[] = [
   {
     id: "n3",
     title: "Assignment Deadline",
-    message: "Reminder: The deadline for submitting your Data Structures assignment is tomorrow at 11:59 PM.",
+    message: "Reminder: The deadline for submitting your ADA Assignment is tomorrow at 11:59 PM",
     date: "2025-04-26T09:45:00",
     read: true,
     type: "warning"
@@ -62,7 +62,7 @@ const teacherNotifications: NotificationItem[] = [
   {
     id: "t1",
     title: "Attendance Reminder",
-    message: "Don't forget to mark attendance for your Database Systems class (CS301) today.",
+    message: "Don't forget to mark attendance for your ADA class (Cs301) today",
     date: "2025-04-28T08:30:00",
     read: false,
     type: "info"
@@ -70,7 +70,7 @@ const teacherNotifications: NotificationItem[] = [
   {
     id: "t2",
     title: "Low Student Attendance",
-    message: "Multiple students in your Data Structures class are below the 75% attendance requirement.",
+    message: "Multiple students in your ADAs class are below the 75% attendance requirement.",
     date: "2025-04-27T16:45:00",
     read: false,
     type: "alert"
@@ -126,7 +126,7 @@ const parentNotifications: NotificationItem[] = [
   {
     id: "p1",
     title: "Low Attendance Alert",
-    message: "Your child's attendance in Mathematics is below 75%. Please address this issue.",
+    message: "Your child's attendance in Software Testing is below 75% . Please address this issue",
     date: "2025-04-28T10:00:00",
     read: false,
     type: "alert"
@@ -142,7 +142,7 @@ const parentNotifications: NotificationItem[] = [
   {
     id: "p3",
     title: "Attendance Improvement",
-    message: "Your child's attendance has improved in Physics class. Keep up the good work!",
+    message: "Your child's attendance has improved in ADA class. Keep up the good work!",
     date: "2025-04-25T09:15:00",
     read: true,
     type: "success"

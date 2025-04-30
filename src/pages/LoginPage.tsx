@@ -43,11 +43,11 @@ const LoginPage = () => {
   };
 
   const demoAccounts = [
-    { role: "Student", email: "john@student.edu", password: "student123" },
-    { role: "Teacher", email: "emily@teacher.edu", password: "teacher123" },
+    { role: "Student", email: "rashidaga91@gmail.com", password: "student123"},
+    { role: "Teacher", email: "rakesh.k@gbu.ac.in" , password : "teacher123"},
     { role: "Admin", email: "admin@university.edu", password: "admin123" },
-    { role: "Parent", email: "parent@example.com", password: "parent123" },
-    { role: "HOD", email: "hod@university.edu", password: "hod123" },
+    { role: "Parent", email: "archit@gmail.com", password : "parent123"},
+    { role: "HOD", email: "hod@university.edu" , password : "hod123"},
     { role: "Dean", email: "dean@university.edu", password: "dean123" },
   ];
 
